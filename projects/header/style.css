@@ -1,13 +1,67 @@
 *{
     margin: 0;
     padding: 0;
-}
-
-body{
-    
-}
-
-.header{
-    width: 100%;
+  }
+  
+  
+  body{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    background: #05A88D;
+  }
+  
+  .header{
     box-sizing: border-box;
-}
+    width: 1440px;
+    height: 100px;
+    background: #FFFFFF;
+  }
+  
+  .menu{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  
+  .menu__ul{
+    list-style: none;
+    display: flex;
+  }
+  
+  .menu__li{
+    padding: 20px;
+    color:#000000;
+  }
+  
+  .menu__link{
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  .menu__logo{
+    text-decoration: none;
+    color: #05A88D;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  .menu__signup{
+    text-decoration: none;
+    color: #05A88D;
+    box-sizing: border-box;
+    border: 1px solid rgb(5, 168, 141);
+    border-radius: 3px; 
+    padding: 12.5px;
+    margin: 10px;
+  }
+  
+  .menu__login{
+    text-decoration: none;
+    color: #05A88D;
+    margin: 69.5px;
+    }
+  
+  
